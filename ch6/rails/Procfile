@@ -1,0 +1,17 @@
+#
+# = nginxとunicronを起動するための設定
+#
+# 実験を行いやすいように、このProcfileを起動するとunicronとnginxの両方が実行中の
+# ユーザで起動するように設定されています。
+# 本来はnginxはrootユーザで実行し、unicronは別の方法で監視するのが一般的です。
+#
+# == 使い方
+#
+#     $ foreman start
+#
+
+# nginxを起動する設定
+nginx: ~/opt/nginx/1.9.5/nginx-1.9.5/objs/nginx -p $(pwd) -c $(pwd)/nginx/nginx.conf -g "daemon off;"
+
+# unicornを起動する設定
+app: cd ./app && bundle exec unicorn -c ./config/unicorn.rb
