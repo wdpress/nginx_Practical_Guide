@@ -11,7 +11,7 @@ __DATA__
 
 === TEST 1: Hello, World!
 --- config
-    location /hello { (※)
+    location /hello {
         content_by_lua 'ngx.say("Hello, World!")';
     }
 --- request
