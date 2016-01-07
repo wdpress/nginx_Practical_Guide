@@ -35,3 +35,5 @@ $ nginx -p $(pwd) -c $(pwd)/nginx/10.2-list10.3-load_lua_resty_core-nginx.conf -
 # バックグラウンドで起動する場合:
 $ nginx -p $(pwd) -c $(pwd)/nginx/10.2-list10.3-load_lua_resty_core-nginx.conf
 ```
+
+また、サンプルコードによっては擬似的なコードを含んでいる場合があるため、そのまま実行するとエラーになるのものがあります。
