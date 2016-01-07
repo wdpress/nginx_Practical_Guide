@@ -27,7 +27,7 @@
 
 - [User-AgentにAndroidが含まれる場合は独自ヘッダ（X-OS-Type）を設定してからプロキシする(リスト9.13)](nginx/9.5-list9.13-request_header_manipulation-nginx.conf)
 - [HTTPクエリパラメータを参照する(リスト9.14)](nginx/9.5-list9.14-ngx.req.get_uri_args-nginx.conf)
-- [HTTPクエリパラメータを上書きする(リスト9.15)](nginx/9.5-list9.15-ngx.req.set_uri_args-nginx.conf
+- [HTTPクエリパラメータを上書きする(リスト9.15)](nginx/9.5-list9.15-ngx.req.set_uri_args-nginx.conf)
 - [POSTパラメータを参照する(リスト9.16)](nginx/9.5-list9.16-ngx.req.get_post_args-nginx.conf)
 
 ### 9.6
