@@ -62,6 +62,6 @@ $ nginx -p $(pwd) -c $(pwd)/nginx/9.2-list9.1-set_by_lua_sample-nginx.conf -g "d
 $ nginx -p $(pwd) -c $(pwd)/nginx/9.2-list9.1-set_by_lua_sample-nginx.conf
 ```
 
-ただし、サンプルコードによっては「...」のように擬似的なコードを埋め込んでいる場合やエラーになるケースとして
+また、サンプルコードによっては「...」のように擬似的なコードを埋め込んでいる場合やエラーになるケースとして
 紹介しているもの、他のHTTPサーバにプロキシする場合の利用例として紹介しているため、そのまま実行すると
 500 Internal Server Error等のエラーを返すものがあります。
