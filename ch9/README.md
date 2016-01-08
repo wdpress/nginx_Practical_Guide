@@ -2,7 +2,7 @@
 
 ## サンプルコード
 
-### 9.2
+### 9.2 nginxをLuaで拡張
 
 - [1からnまでの総和をレスポンスとして返す(リスト9.1)](nginx/9.2-list9.1-set_by_lua_sample-nginx.conf)
 - [set_by_luaディレクティブとrewrite_by_luaディレクティブを実行する(リスト9.2)](nginx/9.2-list9.2-set_by_lua_and_rewrite_by_lua-nginx.conf)
@@ -10,7 +10,7 @@
 - [log_by_luaディレクティブによるロギング(リスト9.4)](nginx/9.2-list9.4-logging_with_log_by_lua-nginx.conf)
 - [header_filter_by_luaディレクティブとbody_filter_by_luaディレクティブでレスポンスのヘッダとボディを書き換え(リスト9.5)](nginx/9.2-list9.5-header_and_body_filter_by_lua_sample-nginx.conf)
 
-### 9.3
+### 9.3 ngx_lua APIプログラミング
 
 - [ステータス403（Forbidden）を返す(リスト9.6)](nginx/9.3-list9.6-return403-nginx.conf)
 - [ngx_luaで内部リダイレクト(リスト9.7)](nginx/9.3-list9.7-internal_redirect_with_ngx_lua-nginx.conf)
@@ -19,31 +19,31 @@
 - [rewriteディレクティブによるURIのリライト(リスト9.10)](nginx/9.3-list9.10-rewrite-nginx.conf)
 - [ngx_luaによるURIのリライト(リスト9.11)](nginx/9.3-list9.11-rewrite_with_ngx_lua-nginx.conf)
 
-### 9.4
+### 9.4 nginxの内部変数の参照
 
 - [ngx_luaで代入可能な変数(リスト9.12)](nginx/9.4-list9.12-ngx.var-nginx.conf)
 
-### 9.5
+### 9.5 HTTPリクエストやレスポンスの操作/参照
 
 - [User-AgentにAndroidが含まれる場合は独自ヘッダ（X-OS-Type）を設定してからプロキシする(リスト9.13)](nginx/9.5-list9.13-request_header_manipulation-nginx.conf)
 - [HTTPクエリパラメータを参照する(リスト9.14)](nginx/9.5-list9.14-ngx.req.get_uri_args-nginx.conf)
 - [HTTPクエリパラメータを上書きする(リスト9.15)](nginx/9.5-list9.15-ngx.req.set_uri_args-nginx.conf)
 - [POSTパラメータを参照する(リスト9.16)](nginx/9.5-list9.16-ngx.req.get_post_args-nginx.conf)
 
-### 9.6
+### 9.6 正規表現
 
 - [ngx_luaによる正規表現処理(リスト9.17)](lua/9.6-list9.17-ngx.re.match.lua)
 
-### 9.7
+### 9.7 データの共有
 
 - [ngx.ctxによる各リクエスト処理フェーズ間でのデータ共有(リスト9.18)](nginx/9.7-list9.18-ngx.ctx-nginx.conf)
 - [ngx.shared.ゾーン名によるワーカプロセス間でのデータ共有(リスト9.19)](nginx/9.7-list9.19-ngx.shared.zone-nginx.conf)
 
-### 9.8
+### 9.8 サブリクエストをノンブロッキングで処理
 
 - [サブリクエストをノンブロッキングで処理する(リスト9.20)](nginx/9.8-list9.20-ngx.location.capture-nginx.conf)
 
-### 9.9
+### 9.9 実践的なサンプル
 
 - [ngx_luaによる認証処理の実装(リスト9.21)](nginx/9.9-list9.21-sample-nginx.conf)
 
