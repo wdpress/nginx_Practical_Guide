@@ -37,7 +37,9 @@ sudo $nginx -t -p $(pwd) -c nginx/4.4-list4.11-gzip.conf
 
 # Chapter 5
 cd ../ch5
-sudo $nginx -t -p $(pwd) -c nginx/nginx.conf
+
+# TODO: tests
+# sudo $nginx -t -p $(pwd) -c nginx/nginx.conf
 
 # Chapter 7
 cd ../ch7
