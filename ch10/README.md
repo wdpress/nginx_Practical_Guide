@@ -2,7 +2,7 @@
 
 ## サンプルコード
 
-### 10.2
+### 10.2 OpenRestyにバンドルされているLuaモジュール
 
 - [Hello, World!（hello.lua）(リスト10.1)](lua/10.2-list10.1-hello_world.lua)
 - [lua-cjsonでLuaのテーブルをJSONに変換(リスト10.2)](lua/10.2-list10.2-cjson.lua)
@@ -12,12 +12,12 @@
 - [データベースとテーブルを作成(リスト10.7)](sql/10.2-list10.7-nginx_book_table.sql)
 - [lua-resty-mysqlでMySQLへアクセス(リスト10.8)](lua/10.2-list10.5-lua_resty_mysql.lua)
 
-### 10.3
+### 10.3 memcached、Redis、MySQLへの 接続のクローズとキープアライブ
 
 - [memcached、Redis、MySQLとの接続を閉じる(リスト10.9)](lua/10.3-list10.9-conn-close.lua)
 - [memcached、Redis、MySQLとの接続をキープアライブ(リスト10.10)](lua/10.3-list10.10-conn-keepalive.lua)
 
-### column
+### Column OpenRestyやngx_luaを利用したアプリケーションのテスト
 
 - [Test::Nginxを使ったテスト(リストa)](perl/column-lista.t)
 
