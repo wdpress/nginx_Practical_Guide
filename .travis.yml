@@ -3,6 +3,6 @@ sudo: required
 cache:
   apt: true
   directories:
-    - src
+    - ./src
 install: ./build.sh
 script: ./test.sh
