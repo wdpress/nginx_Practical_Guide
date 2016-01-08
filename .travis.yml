@@ -1,2 +1,8 @@
+language: c
+sudo: required
+cache:
+  apt: true
+  directories:
+    - src
 install: ./build.sh
 script: ./test.sh
