@@ -9,7 +9,7 @@ Foremanは`gem`コマンドでインストールすることができます。
 $ gem install foreman
 ```
 
-### Ruby on Railsアプリケーションサーバー
+### Ruby on Railsアプリケーションサーバ
 
 `rails`ディレクトリで`foreman start`を実行するとnginxとunicornが起動します。
 
