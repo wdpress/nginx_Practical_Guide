@@ -26,7 +26,10 @@ Web+DB PRESS plusシリーズ nginx実践入門のサンプルコードです。
 
 ## 本書について
 
+<img src="https://raw.githubusercontent.com/wdpress/nginx_Practical_Guide/master/ch4/images/images/nginx.jpg" width="200">
+
 [nginx実践入門](http://gihyo.jp/book/2016/978-4-7741-7866-0)
+
 
 - [Amazon.co.jpで購入](http://www.amazon.co.jp/o/ASIN/4774178667)
 - [オムニ7 - セブンネットショッピングで購入](http://7net.omni7.jp/detail/1106617458)
