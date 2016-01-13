@@ -12,15 +12,15 @@ Web+DB PRESS plusシリーズ nginx実践入門のサンプルコードです。
 実行方法は各章のREADME.mdをご覧下さい。
 
 - 第1章 nginxの概要とアーキテクチャ (第1章のサンプルコードはありません)
-- 第2章 インストールと起動
-- 第3章 基本設定
-- 第4章 静的なWebサイトの構築
-- 第5章 安全かつ高速なHTTPSサーバの構築
-- 第6章 Webアプリケーションサーバの構築
-- 第7章 大規模コンテンツ配信サーバの構築
-- 第8章 Webサーバの運用とメトリクスモニタリング
-- 第9章 Luaによるnginxの拡張──Embed Lua into nginx
-- 第10章 OpenResty──nginxベースのWebアプリケーションフレームワーク
+- [第2章 インストールと起動](//github.com/wdpress/nginx_Practical_Guide/tree/master/ch2)
+- [第3章 基本設定](//github.com/wdpress/nginx_Practical_Guide/tree/master/ch3)
+- [第4章 静的なWebサイトの構築](//github.com/wdpress/nginx_Practical_Guide/tree/master/ch4)
+- [第5章 安全かつ高速なHTTPSサーバの構築](//github.com/wdpress/nginx_Practical_Guide/tree/master/ch5)
+- [第6章 Webアプリケーションサーバの構築](//github.com/wdpress/nginx_Practical_Guide/tree/master/ch6)
+- [第7章 大規模コンテンツ配信サーバの構築](//github.com/wdpress/nginx_Practical_Guide/tree/master/ch7)
+- [第8章 Webサーバの運用とメトリクスモニタリング](//github.com/wdpress/nginx_Practical_Guide/tree/master/ch8)
+- [第9章 Luaによるnginxの拡張──Embed Lua into nginx](//github.com/wdpress/nginx_Practical_Guide/tree/master/ch9)
+- [第10章 OpenResty──nginxベースのWebアプリケーションフレームワーク](//github.com/wdpress/nginx_Practical_Guide/tree/master/ch10)
 
 ## 本書について
 
@@ -60,6 +60,6 @@ ISBN 978-4-7741-7866-0
 
 ## ライセンス
 
-See LICENSE file.
+See [LICENSE file](//github.com/wdpress/nginx_Practical_Guide/blob/master/LICENSE).
 
 Copyright 2015-2016 Shunsuke Michii, Tatsuhiko Kubo. All Rights Reserved.
