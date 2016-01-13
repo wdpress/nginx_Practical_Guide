@@ -1,5 +1,7 @@
 # nginx実践入門 サンプルコード
 
+[![Build Status](https://travis-ci.org/wdpress/nginx_Practical_Guide.svg?branch=master)](https://travis-ci.org/wdpress/nginx_Practical_Guide)
+
 Web+DB PRESS plusシリーズ nginx実践入門のサンプルコードです。
 サンプルコードは実際に利用できる形に近づけるため、紙面の都合上省略している部分も含まれています。
 
