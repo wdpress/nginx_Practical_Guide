@@ -43,6 +43,13 @@ cd ../ch5
 
 # Chapter 7
 cd ../ch7
+sudo $nginx -t -p $(pwd) -c nginx/7.3-list7.1-nginx.conf
+sudo $nginx -t -p $(pwd) -c nginx/7.3-proxy_cache.conf
+sudo $nginx -t -p $(pwd) -c nginx/7.4-image_filter.conf
+sudo $nginx -t -p $(pwd) -c nginx/7.4-list7.2-dav.conf
+sudo $nginx -t -p $(pwd) -c nginx/7.4-origin_server.conf
+sudo $nginx -t -p $(pwd) -c nginx/7.5-list7.3-nginx.conf
+sudo $nginx -t -p $(pwd) -c nginx/7.6-list7.4-nginx.conf
 
 # Chapter 8
 cd ../ch8
