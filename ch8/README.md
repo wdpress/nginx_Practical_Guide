@@ -2,7 +2,7 @@
 
 ## 8.1 nginxのステータスモニタリング
 
-- [stub_statusの設定 (リスト8.1)](nginx/stub_status-setting-nginx.conf)
+- [stub_statusの設定 (リスト8.1)](nginx/stub_status_setting-nginx.conf)
 - [Muninの設定](munin/munin-node.conf)
 
 ## 8.2 アクセスログの記録
